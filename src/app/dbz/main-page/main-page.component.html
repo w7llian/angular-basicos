@@ -1,0 +1,24 @@
+<h1>Dragon Ball Z</h1>
+<hr>
+
+<div class="row">
+    <div class="col">
+        <app-personajes>
+        </app-personajes>
+        <!-- <h3>Personaje</h3>
+        <hr>
+        <ul>
+            <li *ngFor="let per of personajes">{{ per.nombre }} - {{ per.poder | number }}</li>
+        </ul> -->
+
+        <!-- <li>Krilin - 700</li>
+            <li>Goku - 15,000</li>
+            <li>Vegta - 8,500</li> -->
+
+    </div>
+    <div class="col">
+        <app-agregar 
+            [nuevo]="nuevo"
+        ></app-agregar>
+    </div>
+</div>
